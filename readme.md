@@ -5,4 +5,4 @@
 1. Codechef
 2. HackerRank
 
-## python-bests.txt File contains mostly used functions - Available for contribution
+## python-bests.txt File contains mostly used functions Python 3.x - Available for contribution

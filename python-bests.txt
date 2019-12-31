@@ -1,0 +1,7 @@
+Read input from stdin
+
+import sys
+a = sys.stdin.readline()
+
+Readline and convert 12 23 453 23 12 into integer list
+arr = list(map(int,input().split()))
