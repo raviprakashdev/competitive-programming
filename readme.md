@@ -1,6 +1,6 @@
-##Competitve Programming
+# Competitve Programming
 
-Solutions of questions from various plaforms
+## Solutions of questions from various plaforms
 
 1. Codechef
 2. Coding Mafia
