@@ -5,3 +5,14 @@ a = sys.stdin.readline()
 
 Readline and convert 12 23 453 23 12 into integer list
 arr = list(map(int,input().split()))
+
+Sorting
+arr.sort() 
+Complexity:
+sort() is O(n log n) both on average and in the worst case.
+It uses tim sort algorithm which is hybrid sort of merge sort and insertion sort.
+
+Worst complexity: n*log(n)
+Average complexity: n*log(n)
+Best complexity: n
+Space complexity: n 
