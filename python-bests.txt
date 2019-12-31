@@ -8,10 +8,9 @@ arr = list(map(int,input().split()))
 
 Sorting
 arr.sort() 
-Complexity:
-sort() is O(n log n) both on average and in the worst case.
 It uses tim sort algorithm which is hybrid sort of merge sort and insertion sort.
 
+Complexity
 Worst complexity: n*log(n)
 Average complexity: n*log(n)
 Best complexity: n
