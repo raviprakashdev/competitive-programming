@@ -17,5 +17,4 @@ Best complexity: n
 Space complexity: n 
 
 arr.index(n)
-returns the index of 'n' in arr list.
-if not found then return -1
+returns the index of 'n' in arr list. if n not found then returns -1
