@@ -18,3 +18,15 @@ Space complexity: n
 
 arr.index(n)
 returns the index of 'n' in arr list. if n not found then returns -1
+
+Combinations
+from itertools import combinations   
+comb = combinations([1, 2, 3, 4], 2)   
+for i in list(comb): 
+    print i 
+
+Permutations
+from itertools import permutations 
+perm = permutations([1, 2, 3, 4], 2) 
+for i in list(perm): 
+    print i 

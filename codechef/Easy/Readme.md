@@ -5,3 +5,4 @@
 3. Ciel and A-B Problem Solved
 4. Racing Horses Solved
 5. Uncle Johny	
+6. Coin Flip
