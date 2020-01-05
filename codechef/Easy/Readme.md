@@ -6,3 +6,4 @@
 4. Racing Horses Solved
 5. Uncle Johny	
 6. Coin Flip
+7. Paying Up
