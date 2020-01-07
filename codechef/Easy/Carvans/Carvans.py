@@ -1,12 +1,15 @@
-for _ in range(int(input())):
+t = int(input())
+for _ in range(t):
     n = int(input())
-    arr = [int(x) for x in input().split()]
+    arr = list(map(int,input().split(' ')))
     i = 1
+    count = 1;
     a = arr[0]
     while( i < len(arr) ):
         if(a < arr[i]):
-            arr.remove( arr[i] )
+            i+=1
         else:
             a = arr[i]
+            count+=1
             i+=1
-    print(i)
+    print(count)
