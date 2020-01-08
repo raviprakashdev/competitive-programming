@@ -1,20 +1,12 @@
 ab,n,k = map(int,input().split())
 a = [0]*k
-
-def change(i,j):
-    if(a[i+j] > n):
-        change(i,(j+1))
-        a[i+j+1] = 0
-    else:
-        a[i+1]= a[i+1] + 1
-
-for k in range(ab):
-    i = 0
-    print(k,a)
-    if(a[i]+1 > n):
-        print(a)
-        change(i,1)
-    else:
-        a[i] = a[i] + 1
-        
-print(a)
+for i in range(ab):
+    a[0] = a[0] + 1
+    while(max(a) == (n+1)):
+        i = a.index(max(a))
+        a[i] = 0
+        a[i+1] = a[i+1] + 1
+res = ""
+for i in a:
+    res += str(i)+" " 
+print(res)
