@@ -8,3 +8,5 @@
 6. Coin Flip
 7. Paying Up
 8. Carvans
+9. Nuclear Reactor
+10. Jewels and Stones
