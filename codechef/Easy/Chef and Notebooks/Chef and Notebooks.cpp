@@ -1,25 +1,22 @@
 #include<iostream>
-
 using namespace std;
 int main (){
-	
 	int t;
-	cin>>t;
+	scanf("%d",&t);
 	while(t--){
 		int x,y,k,n,flag = 0 ;
-		cin>>x>>y>>k>>n;
-		int rem = x-y;
+	    scanf("%d%d%d%d",&x,&y,&k,&n);
 		int nop, price;
 		while(n--){
-			cin>>nop>>price;
-			if(nop>=rem && price<=k ){
+    	    scanf("%d%d",&nop,&price);
+			if(nop>=(x-y) && price<=k ){
 				flag = 1;
 			}
 		}
 		if(flag==0)
-			cout<<"UnluckyChef"<<endl;
+		    cout<<"UnluckyChef"<<endl;
 		else
-			cout<<"UnluckyChef"<<endl;
+		    cout<<"LuckyChef"<<endl;
 	}
 	
 	return 0;
