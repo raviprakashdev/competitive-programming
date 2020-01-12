@@ -18,6 +18,5 @@ int main (){
 		else
 		    cout<<"LuckyChef"<<endl;
 	}
-	
 	return 0;
 }
