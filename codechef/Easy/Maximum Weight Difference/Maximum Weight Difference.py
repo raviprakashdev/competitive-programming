@@ -6,4 +6,6 @@ for _ in range(int(input())):
     S = sum(w)
     S1 = sum(w[:k])
     S2 = sum(w[-k:])
+    print(w[:k])
+    print(w[-k:])
     print(max(abs(S1 - (S - S1)), abs(S2 - (S - S2))))

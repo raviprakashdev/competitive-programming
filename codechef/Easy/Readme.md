@@ -10,3 +10,5 @@
 8. Carvans
 9. Nuclear Reactor
 10. Jewels and Stones
+11. Chef and Notebooks
+12. Maximum Weight Difference
