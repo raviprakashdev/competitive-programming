@@ -13,6 +13,7 @@
 	6. Count the triplets
 	7. Maximum Weight Difference
 	8. Prime Number - Sieve of Eratosthenes
+	9. Rotate Array
 
 ## Data Structures and Algorithms 
 
