@@ -7,7 +7,10 @@
 
 # Interview Coding Questions
 
-## python-bests.txt File contains mostly used functions Python 3.x - Available for contribution
+# Data Structures and Algorithms 
 
-## c++ bests.txt File contains mostly used functions in c++ - Available for contribution
+## python-bests.txt File contains mostly used subprograms used in Python
+	Available for contribution
 
+## c++-bests.txt File contains mostly used subprograms used in C++
+	Available for contribution
