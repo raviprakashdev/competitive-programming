@@ -4,7 +4,7 @@
 	1. Codechef
 	2. HackerRank
 
-# Interview Coding Questions
+## Interview Coding Questions
 	1. Fibonacci series - element at kth term
 	2. Find continuos subarray in ascending order to make the array sorted
 	3. Reverse words in a given string
@@ -14,7 +14,7 @@
 	7. Maximum Weight Difference
 	8. Prime Number - Sieve of Eratosthenes
 
-# Data Structures and Algorithms 
+## Data Structures and Algorithms 
 
 ## python-bests.txt File contains mostly used subprograms used in Python
 	Available for contribution
