@@ -1,5 +1,4 @@
 Read input from stdin
-
 import sys
 a = sys.stdin.readline()
 
@@ -10,7 +9,7 @@ Sorting
 arr.sort() 
 It uses tim sort algorithm which is hybrid sort of merge sort and insertion sort.
 
-Complexity
+Complexity of tim sort
 Worst complexity: n*log(n)
 Average complexity: n*log(n)
 Best complexity: n
@@ -23,10 +22,11 @@ Combinations
 from itertools import combinations   
 comb = combinations([1, 2, 3, 4], 2)   
 for i in list(comb): 
-    print i 
+    print(i)
 
 Permutations
 from itertools import permutations 
 perm = permutations([1, 2, 3, 4], 2) 
 for i in list(perm): 
-    print i 
+    print(i)
+
