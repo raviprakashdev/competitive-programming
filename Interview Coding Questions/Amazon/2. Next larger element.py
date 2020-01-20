@@ -40,10 +40,40 @@ Testcase1: In the array, the next larger element to 1 is 3 ,
 
 for _ in range(int(input())):
     n = int(input())
-    arr = list(map(int,input().split()))
-    a = []
-    for i in range(n):
-        
-        a.append(max_e)
-    i+=1
-    print(*a)
+    a = list(map(int,input().split()))
+    k=0
+    p = a[:]
+    stack = [a[0]]
+    index = []
+    for i in range(1,n):
+        if(a[i] > stack[k]):
+            j = 0
+            while(k>=0):
+                if(stack[k] > a[i]):
+                    j = k
+                    break
+                else:
+                    p[i-1-k] = a[i]
+                    stack.remove(stack[k])
+                    if(len(index) > 0):
+                        index.pop()
+                    k-=1
+                if(j):
+                    p[j] = a[i-1-j]
+            stack.append(a[i])
+            index.append(i)
+            k+=1
+        else:
+            stack.append(a[i])
+            index.append(i)
+            k+=1
+        print(stack)
+        print(p)
+    max_e = max(a)
+    for i in range(len(p)):
+        if(a[i] == max_e):
+            p[i] = -1
+    for i in index:
+        p[i] = -1
+    print(*p)
+
