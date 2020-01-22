@@ -16,4 +16,5 @@
 14. Count Substrings
 15. Racing Horses
 16. Little Elephant and Permutations
-17. Chef and The Right Triangles 
+17. Chef and The Right Triangles
+ 
