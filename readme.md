@@ -14,6 +14,10 @@
 	7. Maximum Weight Difference
 	8. Prime Number - Sieve of Eratosthenes
 	9. Rotate Array
+	10. Convert an array to reduced form
+	11. Sum of bit differences
+	12. Factorials of large numbers
+	13. Is Binary Number Multiple of 3
 
 ## Data Structures and Algorithms 
 
