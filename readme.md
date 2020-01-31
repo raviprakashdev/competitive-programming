@@ -25,4 +25,4 @@
 	Available for contribution
 
 ## c++-bests.txt File contains mostly used subprograms used in C++
-	Available for contribution
+	Available for contribution...
